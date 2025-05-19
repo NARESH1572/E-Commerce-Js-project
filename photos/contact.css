@@ -1,0 +1,148 @@
+
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: #f4f4f4;
+}
+
+.header h1 {
+  margin-right: 20px;
+}
+
+.headermiddle,
+.headerright {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.headermiddle a,
+.headerright a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.headermiddle a:hover,
+.headerright a:hover {
+  color: red;
+}
+
+.main {
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.full-width-hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.form-container {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #768aa5;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: skyblue;
+  box-shadow: 0 0 5px rgba(135, 206, 235, 0.5);
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  padding: 10px 30px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #bbb;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-heart {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.footer-heart a {
+  color: #333;
+  font-weight: bold;
+}
+
+.footer-heart a:hover {
+  color: red;
+}
+
+.heart {
+  color: red;
+  font-size: 1.5rem;
+}
