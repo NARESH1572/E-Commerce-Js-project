@@ -1,16 +1,15 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>E-Commerce</title>
-    <link rel="stylesheet" href="./Index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-   
+  <meta charset="UTF-8" />
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
-    <div class="header">
+  <div class="header">
         <span>
             <h1>E-Commerce</h1>
         </span>
@@ -33,14 +32,27 @@
         <img id="img" src="./main.png.jpg" alt="Main Banner">
         <div class="ImgText">
             <h3>New Season Arrivals</h3>
-            <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p>This is  a wider card with supporting text below as a natural lead-in to additional content.This content is a little bit longer</p>
         </div>
     </div>
 
+    <div class="center">
+        <h1>Latest Products</h1><hr>
+    </div>
+
+
+  
+  <div class="container">
+    <div class="filters">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="men's clothing">Men's Clothing</button>
+      <button class="filter-btn" data-category="women's clothing">Women's Clothing</button>
+      <button class="filter-btn" data-category="jewelery">Jewelry</button>
+      <button class="filter-btn" data-category="electronics">Electronics</button>
+    </div>
+    <div id="product-list" class="product-list"></div>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>
-
-   
-
-
-    
