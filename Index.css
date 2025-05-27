@@ -99,4 +99,29 @@
 .filter-btn:hover {
   background-color: #747678;
 }
+footer {
+  
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-heart {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.footer-heart a {
+  color: #333;
+  font-weight: bold;
+}
+
+.footer-heart a:hover {
+  color: red;
+}
+
+.heart {
+  color: red;
+  font-size: 1.5rem;
+}
 
