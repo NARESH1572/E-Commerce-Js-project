@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+  <header>
+    <h1>Cart</h1>
+  </header>
+
+  <main>
+    <section class="cart-items" id="cart-items">
+      <h2>Listitem (<span id="cart-count">0</span>)</h2>
+    
+    </section>
+
+    <section class="order-summary">
+       <h2>Price Details</h2>
+      <div class="summary-row">
+        <span>Products</span>
+        <span>$<span id="summary-subtotal">0.00</span></span>
+      </div> 
+      <div class="summary-row">
+        <span>Shipping</span>
+        <span>$<span id="summary-shipping">0.00</span></span>
+      </div>
+      
+       <div class="summary-row summary-total">
+        <span>Total</span>
+        <span>$<span id="summary-total">0.00</span></span>
+      </div>
+      <button id="checkout-btn">Go TO CHECKOUT</button>
+    </section> 
+  </main>
+
+
+
+  <script src="./cart.js"></script>
+</body>
+</html> 
